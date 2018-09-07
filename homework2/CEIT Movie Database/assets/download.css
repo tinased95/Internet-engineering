@@ -1,0 +1,419 @@
+#div_movies{
+    position: relative;
+    margin-top: 1%;
+}
+
+.filmstate{
+    font-family: Shabnam;
+    font-size: 100%;
+    margin-right: 10%;
+    background-color: white;
+}
+.filmstateinfo{
+    background-color: white;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+.filmstateelemet {
+    background-color: white;
+    border-bottom: solid;
+    border-width: 1px;
+    border-bottom-color: black;
+}
+.filmstateelemet:hover{
+    background-color: white;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: red;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgray;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+li div{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+li select{
+    /*display: inline-block;*/
+    color: black;
+    text-align: center;
+    position:relative;
+    width: 100%;
+    padding: 0px 0px;
+    margin: 0 0 5px 10px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: bisque;
+}
+
+#options{
+    position: relative;
+    margin-top: 1%;
+    width: 95%;
+    border-bottom-width: 1px;
+    margin-right: 5%;
+    /*background-color: red;*/
+}
+.optionsul{
+    background-color: white;
+    position: relative;
+    margin-top: 30px;
+    float: right;
+}
+option{
+    border: 1px solid #ccc;
+}
+
+.downloadvalue{
+    font-family: Shabnam;
+    position:relative;
+    right:10%;
+    top:5vh;
+    color: seagreen;
+    text-align: right;
+}
+.meter {
+    left:60%;
+    top:40px;
+	height: 3px;  /* Can be anything */
+    width:30%;
+	position: relative;
+	background: gray;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 3px;
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+.meter > span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: rgb(43,194,83);
+
+  box-shadow:
+    inset 0 2px 9px  rgba(255,255,255,0.3),
+    inset 0 -2px 6px rgba(0,0,0,0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+.suggestion{
+    font-family: Shabnam;
+    position:relative;
+    right:43%;
+    text-align: right;
+	color:dodgerblue;
+}
+#boldtext{
+    font-weight: bold;
+}
+#boldtext1{
+    font-weight: bold;
+}
+#boldtext2{
+    font-weight: bold;
+}
+.ray{
+    font-family: Shabnam;
+    position:absolute;
+    text-align: right;
+    top:30%;
+    right:70%;
+    color: gray;
+}
+.alllang{
+    /*background-image: url("../img/down.png");*/
+    background-position: 2px;
+    background-size:10px;
+    background-repeat:   no-repeat;
+    position: relative;
+    width: 150px;
+    font-size: 20px;
+    -webkit-appearance: none;
+    direction: rtl;
+    border-radius: 6px;
+}
+
+.release{
+    /*background-image: url("../img/down.png");*/
+    background-position: 2%;
+    background-size:10px;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 150px;
+    font-size: 20px;
+    -webkit-appearance: none;
+    direction: rtl;
+    border-radius: 6px;
+}
+
+.type{
+    /*background-image: url("../img/down.png");*/
+    background-position: 2%;
+    background-size:10px;
+    background-repeat: no-repeat;
+    position: relative;
+    /*left: 49%;*/
+    /*top: 20%;*/
+    /*width: 140%;*/
+    width: 150px;
+    font-size: 20px;
+    /*height: 24%;*/
+    -webkit-appearance: none;
+    direction: rtl;
+    border-radius: 6px;
+}
+.resolution{
+    /*background-image: url("../img/down.png");*/
+    background-position: 2%;
+    background-size:10px;
+    background-repeat: no-repeat;
+    position: relative;
+    /*left: 33%;*/
+    /*top: 20%;*/
+    /*width: 140%;*/
+    width: 170px;
+    font-size: 20px;
+    /*height: 24%;*/
+    -webkit-appearance: none;
+    direction: rtl;
+    border-radius: 6px;
+}
+.listorgridmode{
+    background-color: white;
+    position: relative;
+    margin-top: 30px;
+    float: right;
+    margin-right: 20%;
+}
+.grid{
+    position: relative;
+    width: 50px;
+}
+
+.question{
+    position: relative;
+    color:palevioletred;
+}
+#radiogroup{
+    position: relative;
+    margin-left: 100px;
+    display: inline-block;
+    background-color: white;
+}
+.bluray{
+    color: blue;
+    left:92%;
+    border-bottom: solid;
+    /*direction: rtl;*/
+    text-align: right;
+    margin-right: 4%;
+    margin-left: 6%;
+}
+
+.downloadinfo{
+    position:relative;
+    margin-top: 1%;
+    margin-left: 10%;
+    /*margin-right: 10%;*/
+    width: 80%;
+    height: 43px;
+    background-color: white;
+    border-radius: 10px;
+    border:solid;
+    border-color: lightseagreen;
+    /*display: inline-flex;*/
+}
+
+.quality{
+    position:relative;
+    /*border-bottom-left-radius: 9px;*/
+    /*border-top-left-radius: 9px;*/
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    width:15%;
+    height: 43px;
+    background-color: lightseagreen;
+    color: white;
+    line-height: 40px;
+    /*white-space: pre-line;*/
+    /*vertical-align: middle;*/
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    white-space: normal;
+}
+
+.encoder{
+    position:absolute;
+    left: 15%;
+    top: 0px;
+    width:5%;
+    height: 43px;
+    background-color: white;
+    color:lightseagreen;
+    line-height: 40px;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    white-space: normal;
+
+}
+.orginallang{
+    font-family: Shabnam;
+    position:absolute;
+    top:0;
+    left: 20%;
+    width:10%;
+    height: 43px;
+    background-color: white;
+    color: black;
+    line-height: 40px;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    white-space: normal;
+}
+
+.filmtype{
+    position:absolute;
+    top:0;
+    left: 30%;
+    width:15%;
+    height: 43px;
+    background-color: white;
+    color: black;
+    line-height: 40px;
+    /*white-space: pre-line;*/
+    /*vertical-align: middle;*/
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    white-space: normal;
+}
+
+.wave{
+    position:absolute;
+    top:0;
+    left:16%;
+    width:20%;
+    height: 90%;
+}
+
+.downloadrate{
+    position:absolute;
+    top:0;
+    left:60%;
+    width:20%;
+    height: 90%;
+    line-height: 40px;
+    color: lightseagreen;
+}
+
+
+#flagicon{
+    position:absolute;
+    top:0;
+    left: 70%;
+    width:5%;
+    height: 43px;
+    background-color: white;
+    color: black;
+    line-height: 40px;
+    /*white-space: pre-line;*/
+    /*vertical-align: middle;*/
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    white-space: normal;
+}
+#downloadicon{
+    position:absolute;
+    top:0;
+    left: 76%;
+    width:5%;
+    height: 43px;
+    color: white;
+    background-color: black;
+    line-height: 40px;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    white-space: normal;
+}
+.f{
+    font-family: Shabnam;
+    position: absolute;
+    left: 81%;
+    top:0;
+    width: 5%;
+    height:43px;
+    border-radius: 0;
+    background-color: black;
+    color: white;
+    line-height: 40px;
+    /*white-space: pre-line;*/
+    /*vertical-align: middle;*/
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    white-space: normal;
+}
+.downloadsize{
+    position: absolute;
+    left: 86%;
+    top:0;
+    width: 14%;
+    height:43px;
+    /*border-radius: 9px;*/
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color: black;
+    color: white;
+    line-height: 40px;
+    /*white-space: pre-line;*/
+    /*vertical-align: middle;*/
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    white-space: normal;
+}

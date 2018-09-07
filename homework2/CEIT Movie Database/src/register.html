@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register page</title>
+    <script src="https://use.fontawesome.com/513538ea3a.js"></script>
+    <link href="https://cdn.rawgit.com/rastikerdar/shabnam-font/v[2.1.1]/dist/font-face.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="../assets/register.css"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Language" content="fa" />
+</head>
+<body>
+<div id="div_background">
+</div>
+<div id="div_register">
+
+    <div id="top_header">
+        <a href="#"><i id="cancel_icon" class="fa fa-window-close fa-2x" aria-hidden="true"></i></a>
+    </div>
+
+        <div id="div_type">
+            <a href="login.html"><input id = "signin"  type="button" value="ورود"></a>
+            <i id="signin_icon" class="fa fa-sign-in" aria-hidden="true"></i>
+            <input id = "signup"  type="button" value="عضویت">
+                <i id="signup_icon" class="fa fa-user-plus" aria-hidden="true"></i>
+        </div>
+    <div id="div_google">
+
+        <a href="#" class="myButton">ورود با حساب کاربری گوگل</a>
+         <a href="#"><i id="google_icon" class="fa fa-google" aria-hidden="true"></i></a>
+    </div>
+    <div class="line"></div> <hr />
+    <div class="ya">یا</div>
+
+<form id="login_form">
+    <div class="email"><span id="star"> * </span>ایمیل</div>
+    <div class="pass"><span id="star2"> * </span>رمز عبور</div>
+    <div class="pass_repeat"><span id="star3"> * </span>تکرار رمزعبور</div>
+    <div class="invitation">کد دعوت </div>
+    <div class="captcha"><span id="star4"> * </span>کد امنیتی</div>
+
+
+        <input id="id_input" type="text" , name="search" placeholder="ایمیل">
+        <input id="pass_input" type="text" , name="search" placeholder="رمز عبور">
+        <input id="pass_repeat_input" type="text" , name="search" placeholder="تکرار رمز عبور">
+        <input id="invitation_input" type="text" , name="search" placeholder="کد دعوت">
+        <input id="captcha_input" type="text" , name="search" placeholder="کد امنیتی">
+        <i id="refreshicon" class="fa fa-refresh" aria-hidden="true"></i>
+        <img id="captcha_sample" src="../img/captcha_sample.jpg">
+    <label class="label" for="myCheckBox"  >قوانین را مطالعه کردم و می‌پذیرم</label>
+      <span><input name="myCheckBox" id="myCheckBox" type="checkbox" /></span>
+      <div class="clearboth"></div>
+        <input id = "login_button"  type="button" value="عضویت">
+    </form>
+
+</div>
+</body>
+</html>

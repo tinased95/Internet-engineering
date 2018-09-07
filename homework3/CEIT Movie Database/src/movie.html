@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Movie download page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://use.fontawesome.com/513538ea3a.js"></script>
+    <!--<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="../font-awsome/font-awesome.min.css">
+    <link rel="stylesheet" href="../font-awsome/font-awesome.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://cdn.rawgit.com/rastikerdar/shabnam-font/v[2.1.1]/dist/font-face.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="../assets/movie.css"/>
+    <link rel="stylesheet" href="../assets/global.css"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Language" content="fa" />
+</head>
+<body>
+<br>
+<div class="container">
+    <button type="button" class="btn btn-default">ورود/عضویت</button>
+    <div class="col-xs-4">
+       <form action="/action_page.php">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="جستجوی فیلم، سریال، بازیگر، کارگردان" name="search">
+        <div class="input-group-btn">
+            <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+        </div>
+        </div>
+        </form>
+     </div>
+</div>
+<br>
+
+
+<nav class="navbar navbar-expand-sm bg-secondary text-dark navbar-dark ">
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <!-- Dropdown -->
+    <li class="nav-item dropdown text-dark">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop1" data-toggle="dropdown" >
+        آخرین ها
+      </a>
+      <div class="dropdown-menu ">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+
+      <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop2" data-toggle="dropdown">
+        فیلم
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+
+      <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop3" data-toggle="dropdown">
+       سریال
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+
+      <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop4" data-toggle="dropdown">
+        انیمیشن
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+
+      <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop5" data-toggle="dropdown">
+        مستند
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+
+      <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop6" data-toggle="dropdown">
+        مجموعه ها
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+
+      <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop7" data-toggle="dropdown">
+        انیمه
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+
+      <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop8" data-toggle="dropdown">
+        دوبله
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+
+            <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop9" data-toggle="dropdown">
+        زیک زاک
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+
+            <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop10" data-toggle="dropdown">
+        باکس آفیس
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+
+            <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop11" data-toggle="dropdown">
+        آنونس
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+
+            <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop12" data-toggle="dropdown">
+        برترین ها
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+  </ul>
+    <!--</div>-->
+</nav>
+
+
+
+
+<div class="hidden">
+<div class="header coverBlock" itemscope="" itemtype="http://schema.org/Movie" >
+    <div class="header-content">
+        <div class="overlay more-overlay" style="background-color: rgb(27, 39, 38);">
+            <div class="header-description panel" id="back" style="background-image: url('http://media.iranfilms.co/title/tt6678950/photos/background_1320.jpg');">
+                <div class="detailGradient bottomGradient" style="background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(27, 39, 38) 70%);"></div>
+                <div class="detailGradient" style="background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(27, 39, 38) 70%);"></div>
+                <div class="head">
+                    <div class="container">
+                        <h1 itemprop="name" class="single-title"> </h1>
+                            <div class="inner-border">
+                                <ul class="list-reset genre">
+                                    <li>
+                                        <a href="#"><span itemprop="genre" class="genreha"></span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span itemprop="genre" class="genreha"></span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span itemprop="genre" class="genreha"></span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="cover">
+                            <a href="#" target="_blank"><img id="img" src="" itemprop="image"></a>
+                            <div class="overlay-item">
+                                <div class="overlay-inner">
+                                    <div class="overlayBtn">
+                                        <a class="quick-link2 addtowish" data-toggle="tooltip" data-placement="top" title="" style="cursor: pointer;" data-original-title="افزودن به علاقه مندی">
+                                            <!--<i class="fa fa-heart" aria-hidden="true"></i>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="imgborder getcolor"></div>
+                        </div>
+                        <div class="cover-txt">
+                            <div class="details detail">
+                                <div class="inner-border">
+                                    <div class="imdb_wrap">
+                                        <span class="rating fa rateLabel"><i class="icons-star3 icon-star3"></i><span>6.6</span> از <span>10</span> با <span>97</span> رای</span>
+                                        <a class="icons-imdb" href="#" target="_blank" rel="nofollow">IMDB</a>
+                                        <a class="icons-subtitle" target="_blank" data-toggle="tooltip" title="" style="cursor: pointer;" data-original-title="زیرنویس">Subscene</a>
+                                    </div>
+                                    <span class="time"><a href="#">2017</a>
+                                        <meta itemprop="datePublished" content="2017-11-14">
+                                    </span>
+                                    <time class="time fa" itemprop="duration" itemscope="" itemtype="http://schema.org/Duration" datetime="PT91M">1 ساعت  و 31 دقیقه</time>
+                                    <span class="languages"><span class="language">language: </span><span class="language"></span> </span>
+                                    <span class="mpaa" itemprop="contentRating">G</span>
+                                    <div class="countries"> محصول کشور <span class="country">ایالات متحده</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="story" itemprop="description">
+
+                            </div>
+                            <div class="divider"></div>
+                            <div class="details producter">
+                                <div class="inner-border">
+                                    <ul>
+                                        <li itemprop="director" itemscope="" itemtype="http://schema.org/Person">
+                                            کارگردان :<a href="#" class="show_person" itemprop="url"><span itemprop="name"></span></a>
+                                        </li>
+                                        <li itemprop="creator" itemscope="" itemtype="http://schema.org/Person">
+                                                نویسنده:
+                                            <a href="#" class="show_person" itemprop="url"><span itemprop="name"></span></a>                                                                                            </li>
+                                        <li itemprop="actors" itemscope="" itemtype="http://schema.org/Person">
+                                                ستارگان:
+                                            <a href="#" itemprop="url" class="show_person">
+                                                <span itemprop="name"></span>
+                                            </a>,
+
+                                            | <a class="more-persons" rel="nofollow" style="cursor: pointer;"><span> مشاهده همه عوامل ...</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+ <br>
+
+
+
+
+<div class="container">
+  <ul class="list-inline">
+    <li class="active"><a href="#download">دانلود</a></li>
+    <li><a href="#zirnevis">زیرنویس</a></li>
+    <li><a href="#nazar">نظر کاربران</a></li>
+    <li><a href="#naghd">نقد و بررسی</a></li>
+      <li><a href="#avamel">عوامل فیلم</a></li>
+      <li><a href="#javayez">جوایز</a></li>
+      <li><a href="#gallery">گالری</a></li>
+  </ul>
+</div>
+
+<div class="tab-content">
+    <div id="download" class="tab-pane fade in active">
+      <h3>صفحه دانلود</h3>
+        <div class="container">
+  <div class="row">
+    <div class="col">
+        <p class="text-success">
+      ارزش دانلود 1 از 10
+        </p>
+    </div>
+    <div class="col">
+        <p class="text-info">
+    55 نفر از  62نفر تماشای فیلم را پیشنهاد کرده اند
+        </p>
+    </div>
+      <div class="col">
+          <p class="text-muted">
+   شما هم بر اساس ارزش دانلود به فیلم رای دهید
+          </p>
+      </div>
+  </div>
+    <br>
+  <div class="row">
+    <div class="col">
+      <div class="progress">
+    <div class="progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+      <span class="sr-only">70% Complete</span>
+    </div>
+  </div>
+    </div>
+    <div class="col">
+
+    </div>
+    <div class="col">
+      <button type="button" class="btn btn-primary">امتیاز دهید</button>
+    </div>
+  </div>
+</div>
+<br>
+
+<div class="container">
+      <div class="row">
+    <div class="col-xs-2">
+    <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">زبانها
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu dropdown-menu-right">
+      <li><a href="#">انگلیسی</a></li>
+      <li><a href="#">فارسی</a></li>
+      <li><a href="#">فرانسوی</a></li>
+    </ul>
+  </div>
+    </div>
+          <div class="col-xs-2">
+    <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">ریلیز
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu dropdown-menu-right">
+      <li><a href="#">همه</a></li>
+      <li><a href="#">1</a></li>
+      <li><a href="#">2</a></li>
+    </ul>
+  </div>
+          </div>
+
+              <div class="col-xs-2">
+    <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">نوع
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu dropdown-menu-right">
+      <li><a href="#">همه</a></li>
+      <li><a href="#">1</a></li>
+      <li><a href="#">2</a></li>
+    </ul>
+  </div>
+              </div>
+
+                  <div class="col-xs-2">
+    <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">رزولوشن
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu dropdown-menu-right">
+      <li><a href="#">همه</a></li>
+      <li><a href="#">1</a></li>
+      <li><a href="#">2</a></li>
+    </ul>
+  </div></div></div>
+    <br>
+    <div class="container">
+            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="btn-group mr-2" role="group" aria-label="First group">
+            <button type="button" class="btn btn-success">1080p &nbsp&nbsp Bluray</button>
+            <button type="button" class="btn btn-light">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp x264&nbsp&nbsp&nbsp&nbsp زبان اصلی &nbsp&nbsp&nbsp&nbsp ganool &nbsp&nbsp&nbsp&nbsp</button>
+            <button type="button" class="btn btn-dark">1.4GB &nbsp&nbsp  ف  &nbsp&nbsp&nbsp&nbsp</button>
+                </div>
+            </div>
+    </div>
+    <br>
+                    <div class="container">
+            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="btn-group mr-2" role="group" aria-label="First group">
+            <button type="button" class="btn btn-info">720p &nbsp&nbsp Bluray &nbsp</button>
+            <button type="button" class="btn btn-light">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp x264&nbsp&nbsp&nbsp&nbsp دوبله فارسی &nbsp&nbsp&nbsp&nbsp ganool &nbsp&nbsp&nbsp&nbsp</button>
+            <button type="button" class="btn btn-dark">1.4GB &nbsp&nbsp  ف  &nbsp&nbsp&nbsp&nbsp</button>
+                </div>
+            </div>
+    </div>
+</div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+
+
+
+    <div id="zirnevis" class="tab-pane fade">
+      <h3>صفحه زیرنویس</h3>
+        <br><br>
+    </div>
+    <div id="nazar" class="tab-pane fade">
+      <h3>صفحه نظر کاربران</h3>
+        <br><br>
+    </div>
+    <div id="naghd" class="tab-pane fade">
+      <h3>صفحه نقد و بررسی</h3>
+        <br><br>
+    </div>
+    <div id="avamel" class="tab-pane fade">
+      <h3>صفحه عوامل فیلم</h3>
+        <br><br>
+    </div>
+    <div id="javayez" class="tab-pane fade">
+      <h3>صفحه جوایز</h3>
+        <br><br>
+    </div>
+    <div id="gallery" class="tab-pane fade">
+      <h3>صفحه گالری</h3>
+        <br><br>
+    </div>
+  </div>
+
+
+
+
+<script type="text/javascript" src="../js/movie.js"></script>
+</body>
+</html>

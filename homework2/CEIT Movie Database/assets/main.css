@@ -1,0 +1,96 @@
+body{
+    position: relative;
+    height: 100%;
+}
+
+/*shabnam font*/
+@font-face {
+  font-family: Shabnam;
+  src: url('../shabnam-font/Shabnam.eot');
+  src: url('../shabnam-font/Shabnam.eot?#iefix') format('embedded-opentype'),
+       url('../shabnam-font/Shabnam.woff') format('woff'),
+       url('../shabnam-font/Shabnam.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url('../shabnam-font/Shabnam-Bold.eot');
+  src: url('../shabnam-font/Shabnam-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../shabnam-font/Shabnam-Bold.woff') format('woff'),
+       url('../shabnam-font/Shabnam-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url('../shabnam-font/Shabnam-Light.eot');
+  src: url('../shabnam-font/Shabnam-Light.eot?#iefix') format('embedded-opentype'),
+       url('../shabnam-font/Shabnam-Light.woff') format('woff'),
+       url('../shabnam-font/Shabnam-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+/*shabnam font*/
+
+
+
+#main_image{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+
+    /*filter: blur(4px);*/
+
+}
+
+#description1{
+    text-align: right;
+    font-family:Shabnam;
+    position: relative;
+    top: 10px;
+    right: 40%;
+    width: auto;
+    border:none;
+}
+
+#description2{
+    font-family:Shabnam;
+    text-align: right;
+    position: relative;
+    top: -95px;
+    left: 65%;
+    width:15%;
+    border:1px solid #ccc;;
+    border-color: #476e9e;
+    border-radius: 4px;
+}
+#google_icon{
+    position: absolute;
+    left: 78%;
+    top:87%;
+}
+#instagram_icon{
+    position: absolute;
+    left: 74%;
+    top: 87%;
+}
+#telegram_icon{
+    position: absolute;
+    left: 70%;
+    top: 87%;
+}
+#twitter_icon{
+    position: absolute;
+    left: 66%;
+    top: 87%;
+}
+hr { width:100%; height:1px; background: #476e9e; }
+#rights{
+    text-align: center;
+    font-family:Shabnam;
+    position: relative;
+    color:#476e9e;
+    border:none;
+}

@@ -1,0 +1,349 @@
+#div_movies{
+    position: relative;
+    margin-top: 1%;
+}
+
+.filmstate{
+    font-family: Shabnam;
+    font-size: 100%;
+    margin-right: 10%;
+    background-color: white;
+}
+.filmstateinfo{
+    background-color: white;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+.filmstateelemet {
+    background-color: white;
+    border-bottom: solid;
+    border-width: 1px;
+    border-bottom-color: black;
+}
+.filmstateelemet:hover{
+    background-color: white;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: red;
+}
+.filmstate ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgray;
+}
+
+.filmstate li {
+    float: right;
+}
+.optionsul ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgray;
+}
+
+.optionsul li {
+    float: right;
+}
+
+.listorgridmode ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgray;
+}
+
+.listorgridmode li {
+    float: right;
+}
+
+.radiogroup ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgray;
+}
+
+.radiogroup li {
+    float: right;
+}
+
+
+
+li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/*li div{*/
+    /*display: inline-block;*/
+    /*color: black;*/
+    /*text-align: center;*/
+    /*padding: 14px 20px;*/
+    /*text-decoration: none;*/
+/*}*/
+
+/*li select{*/
+    /*!*display: inline-block;*!*/
+    /*color: black;*/
+    /*text-align: center;*/
+    /*position:relative;*/
+    /*width: 100%;*/
+    /*padding: 0px 0px;*/
+    /*margin: 0 0 5px 10px;*/
+    /*text-decoration: none;*/
+/*}*/
+
+
+/*.listorgridmode:hover {*/
+    /*background-color: bisque;*/
+/*}*/
+
+#options{
+    position: relative;
+    margin-top: 1%;
+    width: 95%;
+    border-bottom-width: 1px;
+    margin-right: 5%;
+    /*background-color: red;*/
+}
+.optionsul{
+    background-color: white;
+    position: relative;
+    margin-top: 30px;
+    float: right;
+}
+option{
+    border: 1px solid #ccc;
+}
+
+.downloadvalue{
+    font-family: Shabnam;
+    position:relative;
+    right:10%;
+    top:5vh;
+    color: seagreen;
+    text-align: right;
+}
+.meter {
+    left:60%;
+    top:40px;
+	height: 3px;  /* Can be anything */
+    width:30%;
+	position: relative;
+	background: gray;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 3px;
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+.meter > span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: rgb(43,194,83);
+
+  box-shadow:
+    inset 0 2px 9px  rgba(255,255,255,0.3),
+    inset 0 -2px 6px rgba(0,0,0,0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+.suggestion{
+    font-family: Shabnam;
+    position:relative;
+    right:60%;
+    text-align: right;
+	color:dodgerblue;
+}
+#boldtext{
+    font-weight: bold;
+}
+#boldtext1{
+    font-weight: bold;
+}
+#boldtext2{
+    font-weight: bold;
+}
+.ray{
+    font-family: Shabnam;
+    position:absolute;
+    text-align: right;
+    top:30%;
+    right:70%;
+    color: gray;
+}
+.alllang{
+    /*background-image: url("../img/down.png");*/
+    background-position: 2px;
+    background-size:10px;
+    background-repeat:   no-repeat;
+    position: relative;
+    width: 150px;
+    font-size: 20px;
+    -webkit-appearance: none;
+    direction: rtl;
+    border-radius: 6px;
+}
+
+.release{
+    /*background-image: url("../img/down.png");*/
+    background-position: 2%;
+    background-size:10px;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 150px;
+    font-size: 20px;
+    -webkit-appearance: none;
+    direction: rtl;
+    border-radius: 6px;
+}
+
+.type{
+    /*background-image: url("../img/down.png");*/
+    background-position: 2%;
+    background-size:10px;
+    background-repeat: no-repeat;
+    position: relative;
+    /*left: 49%;*/
+    /*top: 20%;*/
+    /*width: 140%;*/
+    width: 150px;
+    font-size: 20px;
+    /*height: 24%;*/
+    -webkit-appearance: none;
+    direction: rtl;
+    border-radius: 6px;
+}
+.resolution{
+    /*background-image: url("../img/down.png");*/
+    background-position: 2%;
+    background-size:10px;
+    background-repeat: no-repeat;
+    position: relative;
+    /*left: 33%;*/
+    /*top: 20%;*/
+    /*width: 140%;*/
+    width: 170px;
+    font-size: 20px;
+    /*height: 24%;*/
+    -webkit-appearance: none;
+    direction: rtl;
+    border-radius: 6px;
+}
+.listorgridmode{
+    background-color: white;
+    position: relative;
+    margin-top: 30px;
+    float: right;
+    margin-right: 20%;
+}
+.grid{
+    position: relative;
+    width: 50px;
+}
+
+.question{
+    position: relative;
+    color:palevioletred;
+}
+#radiogroup{
+    position: relative;
+    margin-left: 100px;
+    display: inline-block;
+    background-color: white;
+}
+
+
+.download-box {
+    margin: 10px 60px 60px;
+    position: relative;
+    float: right;
+    width: 100%;
+    background-color: #375b99;
+}
+.download-box .wdl-link-row {
+    width: 100%;
+}
+.wdl_inner{
+    right: 10%;
+    border: 1px solid #D8282A;
+    border-radius: 6px;
+    text-align: center;
+    position: relative;
+    padding: 10px 30px 60px;
+    width: 170px;
+    height: 150px;
+}
+.wdl_title{
+    font-size: 22px;
+    color: #333;
+}
+.wdl_title small {
+    font-size: 12px;
+    font-weight: 300;
+    color: #333;
+}
+.wdl_meta {
+    font-weight: 200;
+    font-size: 12px;
+    /*color: #666;*/
+    direction: ltr;
+}
+.wdl_meta .size {
+    font-weight: 500;
+}
+.wdl_meta span {
+    display: inline-block;
+    margin: 0 4px;
+}
+/*.wdl_version {*/
+    /*font-size: 12px;*/
+    /*font-weight: 300;*/
+    /*color: #666;*/
+    /*margin-top: 5px;*/
+/*}*/
+.wdl_footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 38px;
+    background: #D8282A;
+}
+.yellow .wdl_footer, .yellow .scroller>.scroll-element .scroll-bar {
+    background: #F8D40E;
+}
+.yellow .wdl_footer, .yellow .scroller>.scroll-element .scroll-bar {
+    background: #F8D40E;
+}
+.wdl_report {
+    position: absolute;
+    right: 0;
+    top: 6px;
+    width: 32px;
+}
+.wdl_icons {
+    position: absolute;
+    left: 5px;
+    top: 9px;
+    /*color: #999;*/
+    font-weight: 100;
+    font-size: 12px;
+}
+

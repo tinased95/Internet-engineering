@@ -1,0 +1,75 @@
+.download-box {
+    margin: 10px 60px 60px;
+    position: relative;
+    float: right;
+    width: 100%;
+}
+.download-box .wdl-link-row {
+    width: 100%;
+}
+.wdl_inner{
+    right: 10%;
+    border: 1px solid #D8282A;
+    border-radius: 6px;
+    text-align: center;
+    position: relative;
+    padding: 10px 30px 60px;
+    width: 100%;
+    height: 150px;
+}
+.wdl_title{
+    font-size: 22px;
+    color: #333;
+}
+.wdl_title small {
+    font-size: 12px;
+    font-weight: 300;
+    color: #333;
+}
+.wdl_meta {
+    font-weight: 200;
+    font-size: 12px;
+    color: #666;
+    direction: ltr;
+}
+.wdl_meta .size {
+    font-weight: 500;
+}
+.wdl_meta span {
+    display: inline-block;
+    margin: 0 4px;
+}
+.wdl_version {
+    font-size: 12px;
+    font-weight: 300;
+    color: #666;
+    margin-top: 5px;
+}
+.wdl_footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 38px;
+    background: #D8282A;
+}
+.yellow .wdl_footer, .yellow .scroller>.scroll-element .scroll-bar {
+    background: #F8D40E;
+}
+.yellow .wdl_footer, .yellow .scroller>.scroll-element .scroll-bar {
+    background: #F8D40E;
+}
+.wdl_report {
+    position: absolute;
+    right: 0;
+    top: 6px;
+    width: 32px;
+}
+.wdl_icons {
+    position: absolute;
+    left: 5px;
+    top: 9px;
+    color: #999;
+    font-weight: 100;
+    font-size: 12px;
+}
